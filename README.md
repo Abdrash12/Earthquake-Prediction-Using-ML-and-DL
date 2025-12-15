@@ -4,7 +4,7 @@ This project is an AI-based Learning Agent designed to analyze historical seismi
 The system includes a Data Verification Pipeline to ensure dataset integrity and a Streamlit Dashboard for interactive visualization of seismic trends, magnitude distributions, and risk probability metrics.
 
 # Features
-## 1. Data Verification & Exploration (EDA)
+### 1. Data Verification & Exploration (EDA)
 Automated Quality Checks: Validates column existence, data types, and value ranges (e.g., Latitude [-90, 90]).
 
 Statistical Analysis: Generates summary statistics for magnitude, depth, and frequency.
@@ -20,7 +20,7 @@ Magnitude Prediction: Uses Random Forest Regression to predict potential earthqu
 
 Model Evaluation: Tracks accuracy using Mean Squared Error (MSE) and Root Mean Squared Error (RMSE).
 
-#### 3. Interactive Dashboard
+### 3. Interactive Dashboard
 Country Selector: Filter analysis by specific countries or regions (e.g., Japan, Indonesia, USA).
 
 Dynamic Visualizations:
@@ -73,7 +73,7 @@ Depth Analysis: Verifies correlation between earthquake depth and magnitude impa
 1. Clone the Repository
 Bash
 
-git clone https://github.com/your-username/earthquake-prediction-ai.git
+git clone https://github.com/Abdrash12/earthquake-prediction-ai.git
 cd earthquake-prediction-ai
 2. Install Dependencies
 Bash
@@ -90,7 +90,7 @@ To view the data verification and exploration steps:
 
 Bash
 
-jupyter notebook AI_PROJECT_GRAPH.ipynb
+jupyter notebook Earthquauke_Prediction.ipynb
 # 📈 Project Goals
 Data Integrity: Create a robust pipeline that rejects invalid seismic data before training.
 
